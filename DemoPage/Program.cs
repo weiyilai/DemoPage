@@ -1,7 +1,13 @@
+using DemoPage.Repository;
+using DemoPage.Service;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services
+    .AddRepository(builder.Configuration)
+    .AddService();
 
 var app = builder.Build();
 
