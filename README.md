@@ -3,7 +3,7 @@
 
   sqlite DbContext
   
-  sqlite Entities
+  DemoPage Entities
   
   OgImage Tag 資料存取實作 與 介面定義
   
@@ -11,7 +11,7 @@
   
 ## DemoPage.Service 服務層
 
-  OgImage Tag 服務實作 與 介面定義
+  DemoPage 服務實作 與 介面定義
   
   DI 註冊
   
