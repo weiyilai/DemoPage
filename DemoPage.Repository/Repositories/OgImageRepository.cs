@@ -12,10 +12,12 @@ namespace DemoPage.Repository.Repositories
         private readonly SqliteDbContext _context;
 
         public OgImageRepository(
-            ILogger<OgImageRepository> logger
+            ILogger<OgImageRepository> logger,
+            SqliteDbContext context
             )
         {
             _logger = logger;
+            _context = context;
         }
 
         public async Task<List<OgImage>> GetOgImagesAsync()

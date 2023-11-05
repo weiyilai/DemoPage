@@ -6,5 +6,5 @@ public class OgImage
     public string Name { get; set; }
     public string Ext { get; set; }
     public string LocalExt { get; set; }
-    public string LocalMirrorFile { get; set; }
+    public bool LocalMirrorFile { get; set; }
 }
